@@ -5,3 +5,31 @@
   margin: 0;
   padding: 0;
 }
+
+img {
+  max-width: 100%;
+}
+
+li[class],
+ol[class] {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 70rem;
+  padding: 0 0.5em;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: aqua;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: large;
+}
+
+.flow-content > * + * {
+  margin-top: 2em;
+}
