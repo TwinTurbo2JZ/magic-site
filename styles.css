@@ -23,7 +23,7 @@ li {
 }
 
 .flow-content > * + * {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .btn {
@@ -48,6 +48,16 @@ li {
   color: white;
 }
 
+.dark--theme {
+  background: #4e4e4e;
+  background-image: url(./assets//cta-bg.jpg);
+  color: white;
+}
+
+.accent--color {
+  color: #00a1ab;
+}
+
 .flex {
   display: flex;
   gap: 1em;
@@ -56,4 +66,12 @@ li {
 section {
   padding: 4em 0;
   text-align: center;
+}
+
+.hero {
+  text-align: left;
+}
+
+.mastering h2 {
+  text-align: left;
 }
