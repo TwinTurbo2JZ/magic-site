@@ -58,6 +58,17 @@ li {
   color: #00a1ab;
 }
 
+.decoration li::before {
+  content: "";
+  /* display: block; */
+  height: 5rem;
+  width: 5rem;
+  background: #00a1ab;
+  position: absolute;
+  transform: translate(-0.5rem, -0.5rem);
+  z-index: -1;
+}
+
 .flex {
   display: flex;
   gap: 1em;
